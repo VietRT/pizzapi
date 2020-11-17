@@ -1,5 +1,9 @@
 from pizzapy import Customer, StoreLocator
 
+#test
+
+#test 2 from progress
+
 customer = Customer('Truong', 'Ryan', 'ryanhoang2000@yahoo.com', '5153183898', '711 High St, Des Moines, IA, 50309')
 
 my_local_dominos = StoreLocator.find_closest_store_to_customer(customer)
